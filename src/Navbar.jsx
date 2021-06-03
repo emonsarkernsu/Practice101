@@ -7,9 +7,9 @@ const Navbar = () =>{
       <>
       <div className="navlinks">
 
-      <NavLink exact activeClassName="active_class" to='/Signin'> Signin </NavLink>
-      <NavLink exact activeClassName="active_class" to='/Signout'> Tracker </NavLink>
-      <NavLink exact activeClassName="active_class" to='/Employee'> Employee </NavLink>
+      <NavLink class="active" to="/home">Home</NavLink>
+      <NavLink class="active" to="/signin">Sign in</NavLink>
+      <NavLink class="active" to="/signout">Sign out</NavLink>
       </div>
       </>
     );
